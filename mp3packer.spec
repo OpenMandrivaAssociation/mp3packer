@@ -1,5 +1,5 @@
 %define name mp3packer
-%define version 1.21
+%define version 1.23
 %define release %mkrel 1
 
 Summary: MP3 reorganizer and repacker
@@ -7,6 +7,7 @@ Name: %{name}
 Version: %{version}
 Release: %{release}
 Source0: http://omion.dyndns.org/mp3packer/%{name}-%{version}_src.zip
+Patch0: mp3packer-1.23-fix-linking.patch
 License: GPLv2+
 Group: Sound
 Url: http://omion.dyndns.org/
@@ -22,6 +23,8 @@ VBR.
 
 %prep
 %setup -q -c
+%apply_patches
+
 
 %build
 %make OBJ_EXT=.o EXE_EXT=""
