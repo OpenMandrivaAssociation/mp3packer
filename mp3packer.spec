@@ -41,3 +41,12 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %doc *.html
 %_bindir/%name
+
+
+%changelog
+* Wed Jan 11 2012 Götz Waschk <waschk@mandriva.org> 1.23-1mdv2011.0
++ Revision: 759839
+- new version
+- fix linking
+- import mp3packer
+
