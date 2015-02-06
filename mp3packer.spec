@@ -1,6 +1,6 @@
 %define name mp3packer
 %define version 1.23
-%define release %mkrel 1
+%define release 2
 
 Summary: MP3 reorganizer and repacker
 Name: %{name}
