@@ -23,7 +23,7 @@ VBR.
 
 %prep
 %setup -q -c
-%apply_patches
+%autopatch -p1
 
 
 %build
