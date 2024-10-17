@@ -10,7 +10,7 @@ Source0: http://omion.dyndns.org/mp3packer/%{name}-%{version}_src.zip
 Patch0: mp3packer-1.23-fix-linking.patch
 License: GPLv2+
 Group: Sound
-Url: http://omion.dyndns.org/
+Url: https://omion.dyndns.org/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: ocaml
 
