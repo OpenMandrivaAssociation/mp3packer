@@ -12,6 +12,7 @@ License: GPLv2+
 Group: Sound
 Url: https://omion.dyndns.org/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	make
 BuildRequires: ocaml
 
 %description
